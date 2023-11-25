@@ -1,0 +1,64 @@
+body{
+    background-color: #FBC188;
+}
+#back3{
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    top: 10px;
+    left: 10px;
+}
+div{
+    display: grid;
+    gap: 20px;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+button{
+    display: inline-block;
+    height: 60px;
+    width: 300px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 35px;
+    border: 2px solid black;
+    color: white;
+}
+img{
+    position: relative;
+    top: 5px;
+    height: 33px;
+}
+#beginners{
+    background-color: #FB9C9E;
+}
+#easy{
+    background-color: #F16767;
+}
+#medium{
+    background-color: #ED2124;
+}
+#hard{
+    background-color: #991B1E;
+}
+#veryHard{
+    background-color: #622F2B;
+}
+h1{
+    color:rgb(71, 94, 95);
+    text-align: center;
+    top: 50px;
+    position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    div{
+        left: 13%;
+        top: 35%;
+    }
+    h1{
+        position: absolute;
+        top: 15%;
+    }
+  }

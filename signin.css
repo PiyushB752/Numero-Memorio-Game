@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #FBC188;
+}
+#back2{
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    top: 10px;
+    left: 10px;
+}
+#signin{
+    display: grid;
+    gap: 80px;
+    font-size: 15px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+input{
+    position: relative;
+    top: 10px;
+    height: 40px;
+    width: 500px;
+    border-radius: 5px;
+    font-size: 30px;
+    border: 1px solid white;
+}
+input::placeholder{
+    opacity: 0.5;
+}
+#name{
+    display: grid;
+    gap: -40px;
+}
+#nickname{
+    display: grid;
+    gap: -40px;
+}
+#next2{
+    position:absolute;
+    top: 80%;
+    left: 45%;
+    height: 50px;
+    width: 160px;
+    border-radius: 15px;
+    border: 1px solid #B87C84;
+    background-color: #B87C84;
+    font-size: 30px;
+    color: white;
+}
+h1{
+    color:#CB4A4A
+}
+@media only screen and (max-width: 600px) {
+    #back2{
+        height: 50px;
+        width: 50px;
+    }
+    #signin{
+        left: 5%;
+    }
+    input{
+        width: 350px;
+    }
+    #next2{
+        left: 30%;
+    }
+  }

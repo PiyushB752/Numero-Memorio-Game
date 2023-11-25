@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #FBC188;
+    height: 1400px;
+}
+#back1{
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    top: 10px;
+    left: 10px;
+}
+#next{
+    position: absolute;
+    right: 45%;
+    top: 85%;
+    height: 50px;
+    width: 160px;
+    border-radius: 15px;
+    border: 1px solid #B87C84;
+    background-color: #B87C84;
+    font-size: 30px;
+    color: white;
+}
+h1{
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    color: #0D0477;
+    text-decoration:solid;
+}
+ol{
+    padding: 60px;
+    position: absolute;
+    left: 30px;
+    top: 180px;
+    font-size: 30px;
+    color: rgb(26, 58, 40);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    #back1{
+        height: 50px;
+        width: 50px;
+    }
+    h1{
+        left: 30%;
+        top: 15%;
+    }
+    p{
+        left: -10%;
+    }
+    #next{
+        top: 195%;
+        left: 25%;
+    }
+  }
